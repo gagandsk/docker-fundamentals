@@ -7,11 +7,11 @@ docker run -it --rm -d -p 8080:80 --name web sitioweb
 
 ### DockerFile
 
-WORKDIR = ubicacion donde se creara la aplicacion
-COPY = copiar archivo local al entorno docker
-RUN = ejecutar un comando dentro del contenedor
-COPY . . = copiamos los fuentes dentro del WORKDIR especificado
-CMD = ejecutar comando sh
+**WORKDIR** = ubicacion donde se creara la aplicacion
+**COP**Y = copiar archivo local al entorno docker
+**RUN** = ejecutar un comando dentro del contenedor
+**COPY . .**= copiamos los fuentes dentro del WORKDIR especificado
+**CMD** = ejecutar comando sh
 
 http://localhost:8080/linktree.html
 
