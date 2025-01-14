@@ -29,3 +29,8 @@ Salimos del entorno
 ````
 deactivate
 ```
+
+Configurar volúmenes básicos en Docker
+```
+docker run -it --rm -d -p 8080:80 -v ./sitio:/usr/share/nginx/html/sitio --name web nginx
+```
