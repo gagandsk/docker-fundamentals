@@ -76,6 +76,7 @@ $RECYCLE.BIN/
 *.lnk
 
 venv
+*/__pycache__
 __pycache__
 linktree.rar
 # End of https://www.toptal.com/developers/gitignore/api/windows,linux,macos
